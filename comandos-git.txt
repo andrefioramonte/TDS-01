@@ -1,0 +1,114 @@
+link para baixar o git
+git-scm.com
+
+
+
+iniciar um novo projeto com git 
+git init
+
+
+
+Add os arquivos que estão prottos para serem commitados
+git add "nome-arquivo" ou .
+
+
+
+cimmit os arquivos no historico
+git commit -m "mensagem de commit"
+
+
+
+caso queira alterar o ultimo commit 
+git commit --amend -m "sua mensagem de commit"
+
+
+mostra todos os commits, e quem os fez 
+git log 
+
+
+
+mostra o que foi alerado no arquivo (ramificação)
+git diff
+
+
+
+cira uma nova branch a partir da branch atual 
+git branch -b "nome-nova-branch"
+
+
+
+listar as branch e mostrar a  atual que estamos 
+git branch
+
+
+
+muda para esta branch
+git checkout "nome-da-branch"
+
+
+
+merge de ramificação (mescla a ramificação)
+git merge
+
+
+
+configura o usuario remoto no diretorio github
+git config --global user.name "seu nome"
+
+
+
+configura o email do github
+git config --global user.email "seu email do github"
+
+
+
+mostra todos configurações que temos já feito
+git config --global --list
+
+
+mostra todas configurações que tpodemos fazer
+git config --list
+
+
+
+manda nossas altereções locais para o repositório remoto, para cada branch
+git remote add oriigin "nome-da-branch"
+
+
+
+manda nossa altereções locais pra o repositorio remoto
+git push 
+
+
+selecionar o arquivo que deseja subir para o remoto
+git push origin "nome-da-branch"
+
+
+
+pega as altereções do repositorio remoto e tranfere para o local
+git pull
+
+
+
+escolher o arquivo que deseja pegar
+git pull origin "nome-da-branch"
+
+
+atualiza o nosso hitórico local de acordo com o hitorico remoto
+git fetch
+
+
+
+clonar arquivo remoto para o local
+git clone "url-do-repositorio"
+
+
+clonar arquivo remoto para o local e uma pasta com o clone dentro
+git clone "url-do-repositorio" "nome da pasta"
+
+
+
+volta para o arquivo original, cancela todas as altereçoes já feitas
+git restore "nome do arquivo"
+
+
